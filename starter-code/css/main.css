@@ -9,6 +9,20 @@ body {
   margin: 0;
 }
 
+main {
+  margin: 80px auto;
+  width: 80%;
+}
+
+.left-container {
+  float: left;
+  margin: 20px;
+}
+
+.right-container {
+  margin: 0 30px;
+}
+
 .main-text-container {
   width: 60%;
 }
