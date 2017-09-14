@@ -32,13 +32,22 @@ main {
 .button {
   position: absolute;
   top: 20%;
-  right: 10%;
+  right: 16%;
+  background-color: #758DAA;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+.button a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
 }
 .main-text-container {
   clear: both;
   background: url("../images/frame.png") no-repeat;
   background-size: 100%;
-  width: 80%;
+  width: 75%;
   padding: 30px;
 }
 .main-text-container h2 {
