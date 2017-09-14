@@ -23,22 +23,25 @@ main {
 .right-container {
   float: right;
   padding: 10px;
-  width: 60%;
+  width: 57%;
 }
 .brand-container {
   position: relative;
+  overflow: hidden;
 }
 .brand {
   float: left;
 }
 .button {
-  float: right;
   position: absolute;
   top: 25px;
   right: 20px;
 }
 .main-text-container {
   clear: both;
+  background: url("../images/frame.png") no-repeat;
+  width: 81%;
+  padding: 30px 0 30px 30px;
 }
 .app-store {
   float: left;
