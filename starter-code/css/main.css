@@ -11,14 +11,16 @@ body {
 .navbar {
   list-style: none;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 .navbar li{
   display: inline-block;
   margin: 0 10px;
   font-weight: bold;
+  font-size: 85%;
 }
 
 .navbar a {
   text-decoration: none;
+  color: #5C7696;
 }
