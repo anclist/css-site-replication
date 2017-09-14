@@ -9,24 +9,42 @@ body {
   margin: 0;
 }
 
+div {
+  border: 1px solid black;
+}
 main {
   margin: 80px auto;
   width: 80%;
 }
-
 .left-container {
   float: left;
-  margin: 20px;
+  padding: 10px;
 }
-
 .right-container {
-  margin: 0 30px;
-}
-
-.main-text-container {
+  float: right;
+  padding: 10px;
   width: 60%;
 }
+.brand-container {
+  position: relative;
+}
+.brand {
+  float: left;
+}
+.button {
+  float: right;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+}
+.main-text-container {
+  clear: both;
+}
+.app-store {
+  float: left;
+}
 .navbar {
+  clear: both;
   list-style: none;
   text-align: center;
   text-transform: uppercase;
@@ -37,7 +55,6 @@ main {
   font-weight: bold;
   font-size: 85%;
 }
-
 .navbar a {
   text-decoration: none;
   color: #5C7696;
